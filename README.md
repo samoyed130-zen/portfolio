@@ -1,2 +1,2 @@
 # portfolio
-index.html を見てください。
+[こちらから見てください。](https://samoyed130-zen.github.io/portfolio/)
