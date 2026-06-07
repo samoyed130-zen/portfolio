@@ -1,0 +1,23 @@
+:root{
+  --bg:#f7f8fb;
+  --card:#ffffff;
+  --accent:#2b7a78;
+  --text:#222;
+}
+*{box-sizing:border-box}
+body{font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Noto Sans JP", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif; margin:0; color:var(--text); background:var(--bg);}
+.container{max-width:960px;margin:0 auto;padding:24px}
+.site-header{background:linear-gradient(90deg,var(--accent),#4fb3a7);color:#fff;padding:28px 0}
+.name{margin:0;font-size:1.6rem}
+.tagline{margin:6px 0 0}
+main{padding:28px 0}
+h2{margin-top:0}
+.projects{display:grid;grid-template-columns:1fr;gap:16px}
+.project-card{background:var(--card);padding:16px;border-radius:8px;box-shadow:0 6px 18px rgba(0,0,0,0.06)}
+.project-card h3{margin:0 0 8px}
+.project-desc{margin:0 0 8px;color:#333}
+.project-feat{margin:0 0 8px;color:#444}
+.site-footer{padding:16px 0;text-align:center;color:#666}
+@media(min-width:800px){
+  .projects{grid-template-columns:repeat(2,1fr)}
+}
